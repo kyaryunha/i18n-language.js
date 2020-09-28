@@ -58,7 +58,7 @@ There are a lot of approaches to internationalisation, but this project offers u
 
 #### JS
 
-##### 5.
+##### 1.
 
 <img src="./image/example-js-1.png" width="500px">
 
