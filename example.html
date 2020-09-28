@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .unselect-language {
+            display: none;
+        }
+        img {
+            width: 500px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 70%; margin: 50px auto 200px auto;">
+        <h1>
+            MultiLanguage.js <br>
+
+        </h1>
+        <h2 class="ko">
+                바닐라 JS로 하는 간단한 다국어 지원
+        </h2>
+        <h2 class="en">
+                Simple Multi Language with Vanilla Javascript
+        </h2>
+        <span class="ko">
+            작성자: 신 현
+        </span>
+        <span class="en">
+            Write by Hyun SHIN
+        </span>
+        <br>
+        <span class="ko">
+            언어:
+        </span>
+        <span class="en">
+            Language:
+        </span>
+        <select name="language" id="change-language">
+            <option value="ko" selected="selected" lang="ko">
+                Korean
+            </option>
+            <option value="en" lang="en">
+                English
+            </option>
+        </select> <br>
+
+        <h2 class="ko">
+            소개
+        </h2>
+        <h2 class="en">
+            Introduce
+        </h2>
+        <div class="ko">
+            이미 다양한 다국어 지원 방법이 있겠지만, 기존 수많은 방법들에 비해 이 프로젝트의 장점은 다음과 같다. <br>
+            <ul>
+                <li>
+                    HTML에서 해당 텍스트가 나타나는 부분에 번역을 작성할 수 있다.
+                </li>
+                <li>
+                    46줄로 구현된 간단한 JS 파일
+                </li>
+                <li>
+                    HTML, CSS, JS만 사용되어 프론트엔드 입문자도 쉽게 사용 가능하다.
+                </li>
+            </ul>
+        </div>
+        <div class="en">
+            There may already be various multilingual support methods, but the advantages of this project compared to the many existing methods are as follows.<br>
+            <ul>
+                <li>
+                    In HTML, you can write a translation where the text appears.
+                </li>
+                <li>
+                    Simple JS file implemented in 46 lines
+                </li>
+                <li>
+                    Only HTML, CSS, and JS are used, so even beginners can use it easily.
+                </li>
+            </ul>
+        </div>
+
+        <h2 class="ko">사용법</h2>
+        <h2 class="en">Usage</h2>
+        <h4>HTML</h4>
+        <img src="./img/example-html.png"  alt=""/>
+        <h4>CSS</h4>
+        <img src="./img/example-css.png"  alt=""/>
+        <h4>JS</h4>
+        <h5>1.</h5>
+        <img src="img/example-js-1.png" alt=""/>
+        <h5 class="ko">
+            혹은
+        </h5>
+        <h5 class="en">
+            OR
+        </h5>
+        <h5>2.</h5>
+        <img src="img/example-js-2.png" alt=""/>
+        <script type="text/javascript" src="./MultiLanguage.js"></script>
+        <h2 class="ko">링크</h2>
+        <h2 class="en">Link</h2>
+        <a href="https://github.com/kyaryunha/MultiLanguage.js" target="_blank" style="text-decoration: none; color: deepskyblue; font-weight: bold" >
+            https://github.com/kyaryunha/MultiLanguage.js
+        </a>
+    </div>
+</body>
+</html>
