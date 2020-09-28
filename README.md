@@ -1,6 +1,6 @@
 # MultiLanguage.js
 
-MultiLanguage.js is Simple Multi Language with Vanilla Javascript
+multilanguage.js is Simple Multi Language with Vanilla Javascript
 
 작성자: 신 현( Write by Hyun SHIN )
 
@@ -25,7 +25,7 @@ Demo Page: http://kyaryunha.com/multilanguage
 There are a lot of approaches to internationalisation, but this project offers unique advantages like: followings. 
 
 - Inline translation in HTML documents
-- Lightweight JavaScript implementation in 48 lines
+- Lightweight JS implementation in 48 lines
 - Written in pure HTML/CSS/JS so beginners can use it easily
 
 
@@ -33,9 +33,6 @@ There are a lot of approaches to internationalisation, but this project offers u
 ## Usage:
 
 #### HTML
-
-<img src="./image/example-html.png" width="500px">
-<img src="./image/example-select.png" width="500px">
 
 ```html
 <h2 class="ko">
@@ -57,18 +54,11 @@ There are a lot of approaches to internationalisation, but this project offers u
 
 
 #### JS
-
-##### 1.
-
-<img src="./image/example-js-1.png" width="500px">
+Download multilanguage.js and write this code. 
 
 ```js
-<script type="text/javascript" src="./MultiLanguage.js"></script>
+<script type="text/javascript" src="./multilanguage.js"></script>
 ```
 
 
-OR
 
-##### 2
-
-<img src="./image/example-js-2.png" width="500px">
