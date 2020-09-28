@@ -25,7 +25,7 @@ Demo Page: http://kyaryunha.com/multilanguage
 There are a lot of approaches to internationalisation, but this project offers unique advantages like: followings. 
 
 - Inline translation in HTML documents
-- Lightweight JavaScript implementation in 45 lines
+- Lightweight JavaScript implementation in 48 lines
 - Written in pure HTML/CSS/JS so beginners can use it easily
 
 
