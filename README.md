@@ -32,6 +32,7 @@ There may already be various multilingual support methods, but the advantages of
 
 <img src="./image/example-html.png" width="500px">
 <img src="./image/example-select.png" width="500px">
+
 ```html
 <h2 class="ko">
     바닐라 JS로 하는 간단한 다국어 지원
