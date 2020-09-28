@@ -14,7 +14,7 @@ MultiLanguage.js is Simple Multi Language with Vanilla Javascript
 
 - HTML에서 해당 텍스트가 나타나는 부분에 번역을 작성할 수 있다.
 
-- 45줄로 구현된 간단한 JS 파일
+- 48줄로 구현된 간단한 JS 파일
 
 - HTML, CSS, JS만 사용되어 프론트엔드 입문자도 쉽게 사용 가능하다.
 
@@ -53,16 +53,6 @@ There are a lot of approaches to internationalisation, but this project offers u
 </select>
 ```
 
-
-#### CSS
-
-<img src="./image/example-css.png" width="500px">
-
-```css
-.unselect-language {
-    display: none;
-}
-```
 
 #### JS
 

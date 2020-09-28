@@ -4,7 +4,10 @@
  *     Github: https://github.com/kyaryunha
  **************************/
 (function () {
-     function setLanguage(currentLanguage) {
+    var style = document.createElement('style');
+    style.innerHTML = ".unselect-language{display: none;}";
+    document.getElementsByTagName('head')[0].appendChild(style);
+    function setLanguage(currentLanguage) {
         let notCurrentLanguage = currentLanguage === "ko"?"en":"ko";
         let notCurrentTagNames = document.querySelectorAll("." + notCurrentLanguage);
          notCurrentTagNames.forEach(function (tag) {
