@@ -4,7 +4,7 @@
  *     Github: https://github.com/kyaryunha
  **************************/
 (function () {
-    var style = document.createElement('style');
+    let style = document.createElement('style');
     style.innerHTML = ".unselect-language{display: none;}";
     document.getElementsByTagName('head')[0].appendChild(style);
     function setLanguage(currentLanguage) {
