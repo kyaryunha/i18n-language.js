@@ -31,14 +31,23 @@ There may already be various multilingual support methods, but the advantages of
 #### HTML
 
 <img src="./image/example-html.png" width="500px">
-
+<img src="./image/example-select.png" width="500px">
 ```html
 <h2 class="ko">
     바닐라 JS로 하는 간단한 다국어 지원
 </h2>
 <h2 class="en">
     Simple Multi Language with Vanilla Javascript
-</h2>
+</h2> 
+
+<select name="language" id="change-language">
+	<option value="ko" selected="selected" lang="ko">
+		Korean
+	</option>
+	<option value="en" lang="en">
+      	English
+	</option>
+</select>
 ```
 
 
