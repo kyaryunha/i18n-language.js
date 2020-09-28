@@ -32,13 +32,25 @@ There may already be various multilingual support methods, but the advantages of
 
 <img src="./image/example-html.png" width="500px">
 
+```html
+<h2 class="ko">
+    바닐라 JS로 하는 간단한 다국어 지원
+</h2>
+<h2 class="en">
+    Simple Multi Language with Vanilla Javascript
+</h2>
+```
 
 
 #### CSS
 
 <img src="./image/example-css.png" width="500px">
 
-
+```css
+.unselect-language {
+    display: none;
+}
+```
 
 #### JS
 
@@ -46,6 +58,9 @@ There may already be various multilingual support methods, but the advantages of
 
 <img src="./image/example-js-1.png" width="500px">
 
+```js
+<script type="text/javascript" src="./MultiLanguage.js"></script>
+```
 
 
 OR
