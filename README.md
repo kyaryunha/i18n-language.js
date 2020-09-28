@@ -15,7 +15,7 @@ There may already be various multilingual support methods, but the advantages of
 
 
 - HTML에서 해당 텍스트가 나타나는 부분에 번역을 작성할 수 있다.
-- 46줄로 구현된 간단한 JS 파일
+- 45줄로 구현된 간단한 JS 파일
 - HTML, CSS, JS만 사용되어 프론트엔드 입문자도 쉽게 사용 가능하다.
 
 

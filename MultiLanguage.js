@@ -16,7 +16,6 @@
          currentTagNames.forEach(function (tag) {
             if ( tag.classList.contains("unselect-language")) {
                 tag.classList.remove("unselect-language");
-                console.log(tag);
             }
         });
         let selectLanguage = document.getElementById("change-language");
