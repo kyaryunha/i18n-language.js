@@ -4,6 +4,8 @@ MultiLanguage.js is Simple Multi Language with Vanilla Javascript
 
 작성자: 신 현( Write by Hyun SHIN )
 
+Demo Page: http://kyaryunha.com/multilanguage
+
 
 
 ## Introduce
