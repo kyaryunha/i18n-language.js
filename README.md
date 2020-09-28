@@ -43,12 +43,12 @@ There are a lot of approaches to internationalisation, but this project offers u
     Simple Multi Language with Vanilla Javascript
 </h2> 
 
-<select name="language" id="change-language">
-	<option value="ko" selected="selected" lang="ko">
+<select id="change-language">
+	<option value="ko" selected="selected">
 		Korean
 	</option>
-	<option value="en" lang="en">
-      	English
+	<option value="en">
+		English
 	</option>
 </select>
 ```
