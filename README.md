@@ -30,13 +30,13 @@ There may already be various multilingual support methods, but the advantages of
 
 #### HTML
 
-<img src="./img/example-html.png" style="width:500px; border-radius: 10px;">
+<img src="./img/example-html.png" width="500px">
 
 
 
 #### CSS
 
-<img src="./img/example-css.png" style="width:500px; border-radius: 10px;">
+<img src="./img/example-css.png" width="500px">
 
 
 
@@ -44,7 +44,7 @@ There may already be various multilingual support methods, but the advantages of
 
 ##### 5.
 
-<img src="./img/example-js-1.png" style="width:500px; border-radius: 10px;">
+<img src="./img/example-js-1.png" width="500px">
 
 
 
@@ -52,4 +52,4 @@ OR
 
 ##### 2
 
-<img src="./img/example-js-2.png" style="width:500px; border-radius: 10px;">
+<img src="./img/example-js-2.png" width="500px">
