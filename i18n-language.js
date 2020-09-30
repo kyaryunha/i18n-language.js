@@ -1,5 +1,5 @@
 /**************************
- *     Multi Language
+ *    i18n-language.js
  *     Write by Shin Hyun (kyaryunha)
  *     Github: https://github.com/kyaryunha
  **************************/
@@ -8,14 +8,13 @@
     style.innerHTML = ".unselect-language{display: none;}";
     document.getElementsByTagName('head')[0].appendChild(style);
     function setLanguage(currentLanguage) {
-        let notCurrentLanguage = currentLanguage === "ko"?"en":"ko";
-        let notCurrentTagNames = document.querySelectorAll("." + notCurrentLanguage);
+        let notCurrentTagNames = document.querySelectorAll("[data-lang]");
          notCurrentTagNames.forEach(function (tag) {
             if ( !tag.classList.contains("unselect-language")) {
                 tag.classList.add("unselect-language");
             }
         });
-        let currentTagNames = document.querySelectorAll("."+currentLanguage);
+        let currentTagNames = document.querySelectorAll(`[data-lang="${currentLanguage}"]`);
          currentTagNames.forEach(function (tag) {
             if ( tag.classList.contains("unselect-language")) {
                 tag.classList.remove("unselect-language");
@@ -36,10 +35,12 @@
         let localLang = null;
         try {
             localLang = localStorage.getItem('lang');
-        } catch (e) {
-        }
+        } catch (e) {}
         if(localLang !== null) lang = localLang;
-        if(lang !== 'ko') lang = 'en';
+        let isExist = document.querySelectorAll(`[data-lang="${lang}"]`);
+        if (isExist.length === 0) {
+            lang = "en";
+        }
         return lang;
     }
     document.getElementById("change-language").addEventListener("change", function (e) {
@@ -48,6 +49,5 @@
     try{
         setLanguage(getLanguage());
     }
-    catch (e) {
-    }
+    catch (e) {}
 })();
