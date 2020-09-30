@@ -2,25 +2,13 @@
 
 multilanguage.js is Simple Multi Language with Vanilla Javascript
 
-작성자: 신 현( Write by Hyun SHIN )
+Write by Hyun SHIN
 
 Demo Page: http://kyaryunha.com/multilanguage
 
 
 
 ## Introduce
-
-
-
-이미 다양한 다국어 지원 방법이 있겠지만, 기존 수많은 방법들에 비해 이 프로젝트의 장점은 다음과 같다.
-
-- HTML에서 해당 텍스트가 나타나는 부분에 번역을 작성할 수 있다.
-
-- 48줄로 구현된 간단한 JS 파일
-
-- HTML, CSS, JS만 사용되어 프론트엔드 입문자도 쉽게 사용 가능하다.
-
-
 
 There are a lot of approaches to internationalisation, but this project offers unique advantages like: followings. 
 
@@ -35,6 +23,7 @@ There are a lot of approaches to internationalisation, but this project offers u
 #### HTML
 
 ```html
+<!-- Example -->
 <h2 class="ko">
     바닐라 JS로 하는 간단한 다국어 지원
 </h2>
@@ -42,6 +31,7 @@ There are a lot of approaches to internationalisation, but this project offers u
     Simple Multi Language with Vanilla Javascript
 </h2> 
 
+<!-- How To Change Language -->
 <select id="change-language">
 	<option value="ko" selected="selected">
 		Korean
@@ -58,6 +48,12 @@ Download multilanguage.js and write this code.
 
 ```js
 <script type="text/javascript" src="./multilanguage.js"></script>
+```
+
+If you want use just link, 
+
+```javascript
+<script type="text/javascript" src="https://unpkg.com/i18n-multilanguage@1.0.0/multilanguage.js"></script>
 ```
 
 
