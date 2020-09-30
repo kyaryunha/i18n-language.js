@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>multilanguage.js</title>
+    <title>i18n-language.js</title>
     <style>
         img {
             width: 500px;
@@ -13,27 +13,36 @@
 <body>
     <div style="width: 70%; margin: 50px auto 200px auto;">
         <h1>
-            multilanguage.js <br>
+            i18n-language.js <br>
         </h1>
-        <h4 class="ko">
-                바닐라 JS로 하는 간단한 다국어 지원
+        <h4 data-lang="ko">
+            바닐라 JS로 하는 간단한 다국어 지원
         </h4>
-        <h2 class="en">
-                Simple Multi Language with Vanilla Javascript
-        </h2>
+        <h4 data-lang="en">
+            Simple i18n language with Vanilla JS
+        </h4>
+        <h4 data-lang="jp">
+            バニラJSで簡単な多言語サポート
+        </h4>
 
-        <span class="ko">
+        <span data-lang="ko">
             작성자: 신 현
         </span>
-        <span class="en">
+        <span data-lang="en">
+            Write by Hyun SHIN
+        </span>
+        <span data-lang="jp">
             Write by Hyun SHIN
         </span>
         <br>
-        <span class="ko">
+        <span data-lang="ko">
             언어:
         </span>
-        <span class="en">
+        <span data-lang="en">
             Language:
+        </span>
+        <span data-lang="jp">
+            言語:
         </span>
         <select id="change-language">
             <option value="ko" selected="selected">
@@ -42,15 +51,20 @@
             <option value="en">
                 English
             </option>
+            <option value="jp">
+                Japanese
+            </option>
         </select> <br>
-
-        <h2 class="ko">
+        <h2 data-lang="ko">
             소개
         </h2>
-        <h2 class="en">
+        <h2 data-lang="en">
             Introduce
         </h2>
-        <div class="ko">
+        <h2 data-lang="jp">
+            はじめに
+        </h2>
+        <div data-lang="ko">
             이미 다양한 다국어 지원 방법이 있겠지만, 기존 수많은 방법들에 비해 이 프로젝트의 장점은 다음과 같다. <br>
             <ul>
                 <li>
@@ -62,9 +76,15 @@
                 <li>
                     HTML, CSS, JS만 사용되어 프론트엔드 입문자도 쉽게 사용 가능하다.
                 </li>
+                <li>
+                    처음 방문시 브라우저 설정값으로 언어를 설정하고, 설정값이 없다면 영어를 우선으로 띄운다.
+                </li>
+                <li>
+                    언어 변경시 Local Storage에 저장하여, 재방문시 해당 언어로 표기한다.
+                </li>
             </ul>
         </div>
-        <div class="en">
+        <div data-lang="en">
             There are a lot of approaches to internationalisation, but this project offers unique advantages like: followings.
             <ul>
                 <li>
@@ -76,33 +96,64 @@
                 <li>
                     Written in pure HTML/CSS/JS so beginners can use it easily
                 </li>
+                <li>
+                    When visiting for the first time, the language is set as the browser setting value, and if there is no setting value, English is displayed first
+                </li>
+                <li>
+                    When the language is changed, it is stored in the local storage and displayed in the corresponding language when revisiting
+                </li>
+            </ul>
+        </div>
+        <div data-lang="jp">
+            すでに様々な多言語サポートの方法があるが、従来の多数の方法に比べて、このプロジェクトの利点は、以下の通りである。<br>
+            <ul>
+                <li>
+                    HTMLでテキストが表示される部分に翻訳を作成することができる。
+                </li>
+                <li>
+                    48行実装されたシンプルなJSファイル
+                </li>
+                <li>
+                    HTML、CSS、JSのみ使用されて、フロントエンド入門者でも容易に使用可能である。
+                </li>
+                <li>
+                    最初の訪問時にブラウザの設定値に言語を設定し、設定値がない場合は、英語を優先的に浮かべる。
+                </li>
+                <li>
+                    言語を変更する時Local Storageに保存して、再訪問時に、その言語で表記する。
+                </li>
             </ul>
         </div>
 
-        <h2 class="ko">사용법</h2>
-        <h2 class="en">Usage</h2>
+        <h2 data-lang="ko">사용법</h2>
+        <h2 data-lang="en">Usage</h2>
+        <h2 data-lang="jp">使い方</h2>
         <h4>HTML</h4>
         <img src="./image/example-html.png"  alt=""/> <br>
         <img src="./image/example-select.png"  alt=""/>
         <h4>JS</h4>
 
-        <span class="ko">multilanguage.js를 다운로드하고 아래 코드를 작성한다.</span>
-        <span class="en">Download multilanguage.js and write this code. </span>
+        <span data-lang="ko">i18n-language.js를 다운로드하고 아래 코드를 작성한다.</span>
+        <span data-lang="en">Download i18n-language.js and write this code. </span>
+        <span data-lang="jp">i18n-language.jsをダウンロードして、以下のコードを作成する。</span>
         <br>
         <img src="image/example-js.png" alt=""/>
         <br>
-        <span class="ko">다운로드하지 않고 링크로 사용하는 방법은 다음과 같다.</span>
-        <span class="en">If you want use just link,</span>
+        <span data-lang="ko">다운로드하지 않고 링크로 사용하는 방법은 다음과 같다.</span>
+        <span data-lang="en">If you want use just link,</span>
+        <span data-lang="jp">ダウンロードせずにリンクとして使用する方法は次のとおりである。</span>
         <br>
         <img src="image/example-js-2.png" alt=""/>
 
 
-        <h2 class="ko">링크</h2>
-        <h2 class="en">Link</h2>
-        <a href="https://github.com/kyaryunha/multilanguage.js" target="_blank" style="text-decoration: none; color: deepskyblue; font-weight: bold" >
-            https://github.com/kyaryunha/multilanguage.js
+        <h2 data-lang="ko">링크</h2>
+        <h2 data-lang="en">Link</h2>
+        <h2 data-lang="jp">リンク</h2>
+        <a href="https://github.com/kyaryunha/i18n-language.js" target="_blank" style="text-decoration: none; color: deepskyblue; font-weight: bold" >
+            https://github.com/kyaryunha/i18n-language.js
         </a>
-        <script type="text/javascript" src="https://unpkg.com/i18n-multilanguage@1.0.0/multilanguage.js"></script>
+<!--        <script type="text/javascript" src=".././i18n-language.js"></script>-->
+        <script type="text/javascript" src="https://unpkg.com/i18n-language@1.0.3/i18n-language.js"></script>
     </div>
 </body>
 </html>

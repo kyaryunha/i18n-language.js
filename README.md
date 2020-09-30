@@ -1,10 +1,10 @@
-# MultiLanguage.js
+# i18n-language.js
 
-multilanguage.js is Simple Multi Language with Vanilla Javascript
+i18n-language.js is Simple i18n language with Vanilla Javascript
 
 Write by Hyun SHIN
 
-Demo Page: http://kyaryunha.com/multilanguage
+Demo Page: http://kyaryunha.com/i18n-language
 
 
 
@@ -15,7 +15,8 @@ There are a lot of approaches to internationalisation, but this project offers u
 - Inline translation in HTML documents
 - Lightweight JS implementation in 48 lines
 - Written in pure HTML/CSS/JS so beginners can use it easily
-
+- When visiting for the first time, the language is set as the browser setting value, and if there is no setting value, English is displayed first
+- When the language is changed, it is stored in the local storage and displayed in the corresponding language when revisiting
 
 
 ## Usage:
@@ -24,36 +25,41 @@ There are a lot of approaches to internationalisation, but this project offers u
 
 ```html
 <!-- Example -->
-<h2 class="ko">
+<h4 data-lang="ko">
     바닐라 JS로 하는 간단한 다국어 지원
-</h2>
-<h2 class="en">
-    Simple Multi Language with Vanilla Javascript
-</h2> 
-
+</h4>
+<h4 data-lang="en">
+    Simple i18n language with Vanilla JS
+</h4>
+<h4 data-lang="jp">
+    バニラJSで簡単な多言語サポート
+</h4>
 <!-- How To Change Language -->
 <select id="change-language">
-	<option value="ko" selected="selected">
-		Korean
-	</option>
-	<option value="en">
-		English
-	</option>
-</select>
+    <option value="ko" selected="selected">
+        Korean
+    </option>
+    <option value="en">
+        English
+    </option>
+    <option value="jp">
+        Japanese
+    </option>
+</select> 
 ```
 
 
 #### JS
-Download multilanguage.js and write this code. 
+Download i18n-language.js and write this code. 
 
 ```js
-<script type="text/javascript" src="./multilanguage.js"></script>
+<script type="text/javascript" src="./i18n-language.js"></script>
 ```
 
 If you want use just link, 
 
 ```javascript
-<script type="text/javascript" src="https://unpkg.com/i18n-multilanguage@1.0.0/multilanguage.js"></script>
+<script type="text/javascript" src="https://unpkg.com/i18n-language@1.0.4/i18n-language.js"></script>
 ```
 
 

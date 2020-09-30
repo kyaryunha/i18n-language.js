@@ -1,10 +1,12 @@
 {
-  "name": "i18n-multilanguage",
-  "version": "1.0.1",
+  "name": "i18n-language",
+  "version": "1.0.4",
   "description": "Simple Multi Language with Vanilla Javascript",
   "author": "Hyun Shin(kyaryunha@naver.com)",
   "license": "MIT",
   "keywords": [
     "i18n","multilanguage", "language", "multilingual"
-  ]
+  ],
+  "main": "./i18n-language.js",
+  "browser": "./i18n-language.js"
 }
