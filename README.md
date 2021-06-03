@@ -9,8 +9,9 @@ Write by Hyun SHIN
 
 Demo Page: http://kyaryunha.com/i18n-language
 
-npm link: https://www.npmjs.com/package/i18n-language
+NPM Link: https://www.npmjs.com/package/i18n-language
 
+Github Link: https://github.com/kyaryunha/i18n-language.js
 
 ## Introduce
 
