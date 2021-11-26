@@ -64,7 +64,7 @@ Download i18n-language.js and write this code.
 If you want use just link, 
 
 ```javascript
-<script type="text/javascript" src="https://unpkg.com/i18n-language@1.0.4/i18n-language.js"></script>
+<script type="text/javascript" src="https://unpkg.com/i18n-language@1.0.7/i18n-language.js"></script>
 ```
 
 
