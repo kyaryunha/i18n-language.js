@@ -31,7 +31,7 @@
     }
     function getLanguage(){
         let language = window.navigator.userLanguage || window.navigator.language;
-        let lang = language.substr(0,2).toLowerCase();
+        let lang = language.toLowerCase();
         let localLang = null;
         try {
             localLang = localStorage.getItem('lang');

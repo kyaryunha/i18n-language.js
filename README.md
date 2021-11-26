@@ -7,7 +7,7 @@ i18n-language.js is Simple i18n language with Vanilla Javascript
 
 Write by Hyun SHIN
 
-Demo Page: http://kyaryunha.com/i18n-language
+Demo Page: http://i18n-language.s3-website.ap-northeast-2.amazonaws.com/
 
 NPM Link: https://www.npmjs.com/package/i18n-language
 
