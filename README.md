@@ -1,6 +1,7 @@
 # i18n-language.js
 ![](https://img.shields.io/npm/l/i18n-language)
 ![](https://img.shields.io/npm/v/i18n-language)
+![](https://img.shields.io/npm/dm/i18n-language.svg)
 ![](https://img.shields.io/github/stars/kyaryunha/i18n-language.js?style=social) 
 
 i18n-language.js is Simple i18n language with Vanilla Javascript
