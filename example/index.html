@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <title>i18n-language.js</title>
     <style>
-        img {
-            width: 500px;
+        pre {
+            background-color: #eeeeee;
+            padding: 10px;
             border-radius: 10px;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -85,7 +87,7 @@
             </ul>
         </div>
         <div data-lang="en">
-            There are a lot of approaches to internationalisation, but this project offers unique advantages like: followings.
+            There are a lot of approaches to internationalization, but this project offers unique advantages like: followings.
             <ul>
                 <li>
                     Inline translation in HTML documents
@@ -129,22 +131,48 @@
         <h2 data-lang="en">Usage</h2>
         <h2 data-lang="jp">使い方</h2>
         <h4>HTML</h4>
-        <img src="./image/example-html.png"  alt=""/> <br>
-        <img src="./image/example-select.png"  alt=""/>
+        <pre><code>&lt;!-- Example --&gt;
+&lt;h4 data-lang="ko"&gt;
+    바닐라 JS로 하는 간단한 다국어 지원
+&lt;/h4&gt;
+&lt;h4 data-lang="en"&gt;
+    Simple i18n language with Vanilla JS
+&lt;/h4&gt;
+&lt;h4 data-lang="jp"&gt;
+    バニラJSで簡単な多言語サポート
+&lt;/h4&gt;
+
+
+&lt;!-- How To Change Language --&gt;
+&lt;select id="change-language"&gt;
+    &lt;option value="ko" selected="selected"&gt;
+        Korean
+    &lt;/option&gt;
+    &lt;option value="en"&gt;
+        English
+    &lt;/option&gt;
+    &lt;option value="jp"&gt;
+        Japanese
+    &lt;/option&gt;
+&lt;/select&gt;</code></pre>
         <h4>JS</h4>
 
         <span data-lang="ko">i18n-language.js를 다운로드하고 아래 코드를 작성한다.</span>
         <span data-lang="en">Download i18n-language.js and write this code. </span>
         <span data-lang="jp">i18n-language.jsをダウンロードして、以下のコードを作成する。</span>
         <br>
-        <img src="image/example-js.png" alt=""/>
+        <pre><code>&lt;script type="text/javascript" src="./i18n-language.js"&gt;&lt;/script&gt;</code></pre>
         <br>
         <span data-lang="ko">다운로드하지 않고 링크로 사용하는 방법은 다음과 같다.</span>
         <span data-lang="en">If you want use just link,</span>
         <span data-lang="jp">ダウンロードせずにリンクとして使用する方法は次のとおりである。</span>
         <br>
-        <img src="image/example-js-2.png" alt=""/>
-
+        <pre><code>&lt;script type="text/javascript" src="https://cdn.jsdelivr.net/npm/i18n-language@1.0.8/i18n-language.js"&gt;&lt;/script&gt;</code></pre>
+        <span data-lang="ko">혹은 압축 버전은 다음과 같다.</span>
+        <span data-lang="en">or minified version is</span>
+        <span data-lang="jp">あるいは minified version は次の通りである。</span>
+        <br>
+        <pre><code>&lt;script type="text/javascript" src="https://cdn.jsdelivr.net/npm/i18n-language@1.0.8/i18n-language.js"&gt;&lt;/script&gt;</code></pre>
 
         <h2 data-lang="ko">링크</h2>
         <h2 data-lang="en">Link</h2>
@@ -152,8 +180,8 @@
         <a href="https://github.com/kyaryunha/i18n-language.js" target="_blank" style="text-decoration: none; color: deepskyblue; font-weight: bold" >
             https://github.com/kyaryunha/i18n-language.js
         </a>
-<!--        <script type="text/javascript" src=".././i18n-language.js"></script>-->
-        <script type="text/javascript" src="https://unpkg.com/i18n-language@latest/i18n-language.js"></script>
+<!--        <script type="text/javascript" src="./i18n-language.js"></script>-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/i18n-language@latest/i18n-language.js"></script>
     </div>
 </body>
 </html>
