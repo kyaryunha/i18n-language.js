@@ -16,7 +16,7 @@ Github Link: https://github.com/kyaryunha/i18n-language.js
 
 ## Introduce
 
-There are a lot of approaches to internationalisation, but this project offers unique advantages like: followings. 
+There are a lot of approaches to internationalization, but this project offers unique advantages like: followings. 
 
 - Inline translation in HTML documents
 - Lightweight JS implementation in 48 lines
@@ -58,15 +58,18 @@ There are a lot of approaches to internationalisation, but this project offers u
 #### JS
 Download i18n-language.js and write this code. 
 
-```js
+```html
 <script type="text/javascript" src="./i18n-language.js"></script>
 ```
 
 If you want use just link, 
 
-```javascript
-<script type="text/javascript" src="https://unpkg.com/i18n-language@1.0.7/i18n-language.js"></script>
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/i18n-language@1.0.8/i18n-language.js"></script>
 ```
 
+or minified version is
 
-
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/i18n-language@1.0.8/i18n-language.min.js"></script>
+```
